@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main_div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+#div1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image:url(anna-kolosyuk-D5nh6mCW52c-unsplash.jpg);
+    display: flex;
+}
+h1{
+    position: absolute;
+    font-family: 'Alex Brush', cursive;
+    font-size: 150px;
+    margin-left: 20%;
+    margin-top: 5%;
+} 
+   
+ul{
+    font-family: 'Alex Brush', cursive;
+    width: 100%;
+    
+     margin-top: 28%; 
+     margin-left: 21%;
+}
+li{
+    display: inline-block;
+    padding: 15px 30px;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 54px;
+    letter-spacing:2px;
+}
+a:hover{
+    background-color: black;
+    color: white;
+    padding: 3px 6px; 
+    border-radius: 30%;
+    
+}
+#div2{
+height: 150%;
+width: 100%;
+font-family: 'Alex Brush', cursive;
+font-family: 'Merriweather', serif;
+/* background-color: white; */
+display: flex;
+background-image: linear-gradient(#3498db,#2ecc71);
+/* justify-content: center;
+align-items: center; */
+}
+
+
+#pic1{
+    width: 23%;
+    height: 45%;
+    background-color: teal;
+    margin-top: 40%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(Screen\ Shot\ 2020-04-16\ at\ 10.17.53\ PM.png);
+}
+#pic2{
+    width: 23%;
+    height: 45%;
+    background-color: teal;
+    margin-top: 170px;
+    margin-left: 43px;
+    background-image: url(Screen\ Shot\ 2020-04-16\ at\ 10.17.37\ PM.png);
+    background-position: center;
+    background-size: cover;
+}
+#text{
+    margin-left: 100px;
+    width: 40%;
+    
+}
+p{
+    margin-bottom: 20px;
+    width: 70%;
+    margin-left: 10%;
+    font-size: 23.5px;
+}
+h2{
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 42px;
+}
+#h2{
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Merriweather', serif;
+    font-size: 52px;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+#div3{
+    position: absolute;
+    /* width: 100%;
+    height: 150vh; */
+    
+    width: 100%;
+    height: 600%;
+    background-image: linear-gradient(#3498db,#2ecc71);
+}
+#main_div2{
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    margin-top: 100px;
+    /* background-color:white;  */
+    margin-left:14%;
+    display: flex;
+    flex-wrap:wrap;
+    align-items:center ;
+    justify-content: space-around;
+}
+.other_poster{
+width: 300px;
+height: 450px;
+/* background-color: tomato; */
+margin-bottom: 20px;
+background-size: cover;
+background-position: center;
+cursor: pointer;
+}
+.other_poster:hover{
+    transform: scale(1.01);
+}
+#image1{
+    background-image: url(lush\ green\ forst.png);
+}
+#image2{
+    background-image: url(potraitScreen\ Shot\ 2020-04-17\ at\ 2.19.49\ AM.png);
+}
+#image3{
+    background-image: url(potraitScreen\ Shot\ 2020-04-17\ at\ 2.20.03\ AM.png);
+}
+#image4{
+    background-image: url(potraitScreen\ Shot\ 2020-04-17\ at\ 2.20.33\ AM.png);
+}
+#image5{
+    background-image: url(potraitScreen\ Shot\ 2020-04-17\ at\ 2.20.43\ AM.png);
+}
+#image6{
+    background-image: url(potraitScreen\ Shot\ 2020-04-17\ at\ 2.20.48\ AM.png);
+}
+#image7{
+    background-image: url(potraitScreen\ Shot\ 2020-04-17\ at\ 2.21.06\ AM.png);
+}
+#image8{
+    background-image: url(potraitScreen\ Shot\ 2020-04-17\ at\ 2.21.00\ AM.png);
+}
+
+#image9{
+    background-image: url(potraitScreen\ Shot\ 2020-04-17\ at\ 2.21.23\ AM.png);
+}
+
+#image10{
+    background-image: url(potraitScreen\ Shot\ 2020-04-17\ at\ 2.21.33\ AM.png);
+}
+#image11{
+    background-image: url(pot.jpg);
+}
+#image12{
+    background-image: url(potPHOTO-2020-04-16-10-23-10\ 2.jpg);
+}
+#image13{
+    background-image: url(potPHOTO-2020-04-16-10-23-10\ 3.jpg);
+}
+#image14{
+    background-image: url(potPHOTO-2020-04-16-10-23-10\ 4.jpg);
+}
+#image15{
+    background-image: url(potPHOTO-2020-04-16-10-23-10\ 5.jpg);
+}
+#image16{
+    background-image: url(pott.jpg);
+}
+#image17{
+    background-image: url(pottt.jpg);
+}
+#image18{
+    background-image: url(potPHOTO-2020-04-16-10-23-10\ 5.jpg);
+}
+#image19{
+    background-image: url(potPHOTO-2020-04-16-10-23-10\ 7.jpg);
+}
+#image20{
+    background-image: url(potPHOTO-2020-04-16-10-23-11\ 4.jpg);
+}
+#image21{
+    background-image: url(pottPHOTO-2020-04-16-10-23-10\ 10.jpg);
+}
+#main_div3{
+    /* position: relative; */
+    width: 1000px;
+    height: 600px;
+    margin-top: 190%;
+    /* background-color:white;  */
+    margin-left:14%;
+    display: flex;
+    flex-wrap:wrap;
+    align-items:center ;
+    justify-content: space-around;
+}
+.other_poster2{
+height: 300px;
+width: 450px;
+background-color: tomato;
+margin-bottom: 20px;
+background-size: cover;
+background-position: center;
+cursor: pointer;
+}
+.other_poster:hover{
+    transform: scale(1.01);
+}
+
+#image_3{
+    background-image: url(lsPHOTO-2020-04-16-10-23-10\ 12.jpg);
+}
+
+#image_5{
+    background-image: url(lsPHOTO-2020-04-16-10-23-11.jpg);
+}
+
+#image_7{
+    background-image: url(lsPHOTO-2020-04-16-10-23-11\ 5.jpg);
+}
+#image_8{
+    background-image: url(lsPHOTO-2020-04-16-10-23-11\ 6.jpg);
+}
+#div4{
+    position: absolute;
+    /* width: 100%;
+    height: 150vh; */
+    
+    width: 100%;
+    height: 600%;
+    background-image: linear-gradient(#3498db,#2ecc71);
+}
+._p{
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Merriweather', serif; 
+    size: 23.5px;
+    margin-left: 14px;
+}
+#h_2{
+    /* position: absolute;
+    text-align: left; */
+    margin-top: 35px;
+    margin-left: 14px;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Merriweather', serif;
+}
+#cert{
+    position: relative;
+    height: 23%;
+    width: 100%;
+    background-size: cover;
+    background-image:url(young\ acheiver\ Screen\ Shot\ 2020-04-24\ at\ 1.58.26\ AM.png);
+    display: flex;
+}
+#cert2{
+    position: relative;
+    height: 19%;
+    flex-wrap:wrap;
+    width: 43%;
+    background-size: cover;
+    margin-left: 33%;
+    background-image:url(certScreen\ Shot\ 2020-04-24\ at\ 1.58.57\ AM.png);
+    display: flex;
+}
+#cert3{
+    position: relative;
+    height: 12%;
+    width: 52%;
+    background-size: cover;
+    margin-left: 5%;
+    background-image:url(certScreen\ Shot\ 2020-04-24\ at\ 1.59.09\ AM.png);
+    display: flex;
+}
+#cert4{
+    /* position: relative; */
+    height: 12%;
+    width: 52%;
+    background-size: cover;
+    margin-left: 43%;
+    
+    background-image:url(certScreen\ Shot\ 2020-04-24\ at\ 1.59.16\ AM.png);
+    display: flex;
+}
